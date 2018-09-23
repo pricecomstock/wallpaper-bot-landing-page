@@ -60,7 +60,7 @@ export default {
         twitter: true,
         resume: true,
         blog: false,
-        github: true
+        github: false
       },
       githubUrl: process.env.VUE_APP_GITHUB_URL,
       version: process.env.VUE_APP_VERSION
