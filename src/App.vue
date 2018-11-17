@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <pcnav></pcnav>
-    <router-view/>
+    <div class="section">
+      <router-view></router-view>
+    </div>
     <pcfoot></pcfoot>
   </div>
 </template>
