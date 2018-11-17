@@ -1,7 +1,14 @@
 <template>
   <!--TODO: Probably shouldn't be a hero-->
   <div class="hero" id="sample">
-    <div class="section">
+    <div class="container">
+      <hr>
+      <div class="section">
+        <div>
+          <img src="@/assets/messagebutton.png" alt="Message Action">
+        </div>
+        Just click the <button class="button is-small"><span class="icon is-small"><i class="fas fa-ellipsis-h"></i></span></button> on the Slack message you want to create a wallpaper from!
+      </div>
       <hr>
       <div class="section">
         <div class="field">
@@ -11,7 +18,7 @@
         </div>
         <p class="is-size-6">These quotes and wallpapers are chosen randomly and do not reflect the views of Inspopaper!</p>
       </div>
-      <div class="container">
+      <div class="section">
         <img class="sample-image" v-if="imageLoaded" :src="imageUrl" alt="Press the button for a wallpaper!">
       </div>
     </div>

@@ -8,7 +8,7 @@
           </h1>
           <p></p>
           <h2 class="subtitle is-italic has-text-dark">
-            immortalize messages as beautiful and inspirational images!
+            Immortalize the poetic and inspirational messages in your Slack team as beautiful desktop wallpapers!
           </h2>
         </div>
       </div>
