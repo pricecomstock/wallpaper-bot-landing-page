@@ -6,6 +6,9 @@
                     <div class="level-item has-text-grey">
                         {{ footerText }} 
                     </div>
+                    <router-link class="level-item has-text-grey is-size-7" to="/terms" tag="a">Terms</router-link>
+                    <router-link class="level-item has-text-grey is-size-7" to="/privacy" tag="a">Privacy</router-link>
+                    <router-link class="level-item has-text-grey is-size-7" to="/support" tag="a">Support</router-link>
                 </div>
                 <div class="level-right is-size-7">
                     <div class="level-item">
