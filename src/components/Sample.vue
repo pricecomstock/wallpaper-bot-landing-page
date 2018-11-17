@@ -2,13 +2,16 @@
   <!--TODO: Probably shouldn't be a hero-->
   <div class="hero" id="sample">
     <div class="section">
-      <div class="field">
-        <p class="control has-text-centered">
-          <a class="button primary is-large" :class="{'is-loading': imageLoading}" @click="loadNewImage()">Generate a new sample!</a>
-        </p>
-      </div>
-      <p class="is-size-6">These quotes are chosen randomly from over 36,000 quotes and do not reflect the views of Inspopaper!</p>
       <hr>
+      <div class="section">
+        <div class="field">
+          <p class="control has-text-centered">
+            <a class="button is-danger is-large" :class="{'is-loading': imageLoading}" @click="loadNewImage()">Generate a new sample!</a>
+          </p>
+        </div>
+        <p class="is-size-6">These quotes are chosen randomly from over 36,000 quotes and do not reflect the views of Inspopaper!</p>
+        <p class="is-size-7">The wallpapers are also chosen randomly please do not @ me!</p>
+      </div>
       <div class="container">
         <img class="sample-image" v-if="imageLoaded" :src="imageUrl" alt="Press the button for a wallpaper!">
       </div>

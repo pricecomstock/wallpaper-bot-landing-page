@@ -1,12 +1,13 @@
 <template>
   <div>
-    <div class="hero is-primary">
+    <div class="hero is-white">
       <div class="hero-body">
         <div class="container">
           <h1 class="title">
-            Inspo-paper
+            <img src="@/assets/logo.png" alt="Inspopaper">
           </h1>
-          <h2 class="subtitle">
+          <p></p>
+          <h2 class="subtitle is-italic has-text-dark">
             immortalize messages as beautiful and inspirational images!
           </h2>
         </div>
